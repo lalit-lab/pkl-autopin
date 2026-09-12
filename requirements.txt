@@ -1,0 +1,8 @@
+# torch/torchvision are NOT listed here on purpose: the right wheel depends on
+# the GPU. Install torch first, from the index that matches your card:
+#   Blackwell (RTX 50xx, e.g. 5050/5060/5070): --index-url .../whl/cu128
+#   Ada / Ampere (RTX 40xx, 30xx):             --index-url .../whl/cu124
+# See SETUP_OTHER_PC.md.
+opencv-python>=4.9
+numpy>=1.26
+ultralytics>=8.3

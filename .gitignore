@@ -1,0 +1,9 @@
+# never move a venv between machines: hardcoded paths + wrong CUDA build
+.venv/
+__pycache__/
+_debug/
+smoke.pt
+
+# model weights are small enough to carry, so that --resume works after a move
+!court_seg.pt
+!yolo11n.pt
